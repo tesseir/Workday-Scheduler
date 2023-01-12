@@ -1,6 +1,5 @@
 // ? ls = local storage
 
-
 //writes to local storage
 function writels(key){
  
@@ -11,7 +10,6 @@ function writels(key){
 }
 
 window.writels = writels
-
 
 //writes from local storage
 function readls(key){
@@ -25,7 +23,6 @@ function readls(key){
 }
 
 window.readls = readls
-
 
 //fills timeblocks with unique id and also its coresponding text and "past" "present "future" value.
 function createTimeBlock(index){
