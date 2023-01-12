@@ -1,10 +1,23 @@
 # 05 Third-Party APIs: Work Day Scheduler
 
-## Your Task
+Github Repo: https://github.com/tesseir/Workday-Scheduler
 
-Create a simple calendar application that allows a user to save events for each hour of the day by modifying starter code. This app will run in the browser and feature dynamically updated HTML and CSS powered by jQuery.
+Deployed Page: https://tesseir.github.io/Workday-Scheduler/
 
-You'll need to use the [Day.js](https://day.js.org/en/) library to work with date and time. Be sure to read the documentation carefully and concentrate on using Day.js in the browser.
+## Image of use:
+
+![Page](https://raw.githubusercontent.com/tesseir/Workday-Scheduler/main/Assets/Capture.PNG)
+
+## Usage
+
+Download the files to your local drive, and run "Index.HTML" on Chrome. Once there, right click anywhere on the screen and click "Select Element". Once thats done youll be able to see the console, which will help you decide what to study first!
+
+Please download all files to your pc, and keep them together in the folder "workday-scheduler" as they are crucial to the site working properly.
+
+When opening the page, you will see todays date and time in the header. it does not update as the time changes, only grabs the time from when it was loaded. Reload the page for the (then) current time.
+
+You will be able to write into the text area and save it, which will push what you write to local storage and will be written into the field automatically. to edit, simply just write in the field again and press save. to delete, delete all text in the field and press save.
+
 
 ## User Story
 
@@ -32,68 +45,3 @@ WHEN I refresh the page
 THEN the saved events persist
 ```
 
-The following animation demonstrates the application functionality:
-
-<!-- @TODO: create ticket to review/update image) -->
-![A user clicks on slots on the color-coded calendar and edits the events.](./Assets/05-third-party-apis-homework-demo.gif)
-
-## Grading Requirements
-
-> **Note**: If a Challenge assignment submission is marked as “0”, it is considered incomplete and will not count towards your graduation requirements. Examples of incomplete submissions include the following:
->
-> * A repository that has no code
->
-> * A repository that includes a unique name but nothing else
->
-> * A repository that includes only a README file but nothing else
->
-> * A repository that only includes starter code
-
-This Challenge is graded based on the following criteria:
-
-### Technical Acceptance Criteria: 40%
-
-* Satisfies all of the above acceptance criteria plus the following:
-
-  * Uses a date utility library to work with date and time
-
-### Deployment: 32%
-
-* Application deployed at live URL
-
-* Application loads with no errors
-
-* Application GitHub URL submitted
-
-* GitHub repo contains application code
-
-### Application Quality: 15%
-
-* Application user experience is intuitive and easy to navigate
-
-* Application user interface style is clean and polished
-
-* Application resembles the mock-up functionality provided in the Challenge instructions
-
-### Repository Quality: 13%
-
-* Repository has a unique name
-
-* Repository follows best practices for file structure and naming conventions
-
-* Repository follows best practices for class/id naming conventions, indentation, quality comments, etc.
-
-* Repository contains multiple descriptive commit messages
-
-* Repository contains quality README file with description, screenshot, and link to deployed application
-
-## Review
-
-You are required to submit the following for review:
-
-* The URL of the deployed application
-
-* The URL of the GitHub repository, with a unique name and a README describing the project
-
-- - -
-© 2022 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
