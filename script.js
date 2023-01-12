@@ -43,13 +43,14 @@ function createTimeBlock(index){
 
   let text = readls(index)
 
-  return `<div id="${index}" class="row time-block ${timeClass}">
-  <div class="col-2 col-md-1 hour text-center py-3">${index}:00</div>
-  <textarea class="col-8 col-md-10 description" rows="3" id="t-${index}">${text}</textarea>
-  <button onclick="window.writels(${index})" class="btn saveBtn col-2 col-md-1" aria-label="save">
-    <i class="fas fa-save" aria-hidden="true"></i>
-  </button>
-</div>`
+  return `
+  <div id="${index}" class="row time-block ${timeClass}">
+    <div class="col-2 col-md-1 hour text-center py-3">${index}:00</div>
+    <textarea class="col-8 col-md-10 description" rows="3" id="t-${index}">${text}</textarea>
+    <button onclick="window.writels(${index})" class="btn saveBtn col-2 col-md-1" aria-label="save">
+      <i class="fas fa-save" aria-hidden="true"></i>
+    </button>
+  </div>`
 }
 
 $(document).ready(function() { 
