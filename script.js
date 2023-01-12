@@ -63,7 +63,6 @@ $(document).ready(function() {
 
   $('#timeblock-Parent').html(timeBlocks.join("")) 
 
-
 });
 
 
